@@ -29,6 +29,12 @@ body {
   color: var(--text-color);
 }
 
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -66,4 +72,10 @@ body {
   color: var(--text-color);
   cursor: pointer;
   display: none;
+}
+
+.home {
+  display: flex;
+
+
 }
