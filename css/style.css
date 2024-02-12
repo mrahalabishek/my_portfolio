@@ -49,12 +49,15 @@ section {
   transition: all 0.5s ease;
 }
 
+
+
 .logo {
   font-size: 2.5rem;
   color: var(--text-color);
   font-weight: 600;
   cursor: default;
 }
+
 
 .navbar a{
   font-size: 1.7rem;
@@ -181,3 +184,49 @@ span {
   font-size: 1.6rem;
   line-height: 2rem 0 3rem;
 }
+
+.services h2{
+  margin-bottom: 5rem;
+}
+
+.services-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.services-container .services-box {
+  width: 50rem; /* Set a fixed width */
+  height: 45rem; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow content */
+  background: var(--second-bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: 0.2rem solid var(--bg-color);
+  transition: 0.5s ease;
+}
+
+.services-container .services-box:hover{
+  border-color: var(--main-color);
+  transform: scale(1.02);
+}
+
+
+
+.services-box i{
+  font-size: 7rem;
+  color: var(--main-color);
+}
+
+.services-box h3 {
+  font-size: 2.6rem;
+}
+
+.services-box p{
+  font-size: 1.6rem;
+  margin: 1rem 0 3rem;
+}
+
